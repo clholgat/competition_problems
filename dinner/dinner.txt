@@ -1,0 +1,26 @@
+Tuesday night's LUG dinner has more people than expected but the are all divided into groups of friends. In an effort to make the LUG more social no two friends from the same group are allowed to sit at the same table.
+
+Given the number of people in each friend group and the seating capacity of each table, determine whether it is possible for the groups to sit as described. 
+
+Input:
+The first line will be an integer indicating the number of test cases. The first line of each test case will contain two integers 1<M<70, 1<N<50 denoting the number of teams and tables respectively. The second line of each test case contains M integers, where the ith integer m_i indicates the number of members of team i. There are at most 100 members of ay team. The third line contains N integers, where the jth integer n_j, 2 < n_j < 100, indicates the seating capacity of table j.
+
+Output:
+For each test case, print a line containing either a 1 or a 0, denoting whether there eists a valid seating arrangement of the team members. In case of a successful arrangement, print M additional lines where the ith line contains a table number from 1 to N fro each of the members of team i.
+
+Sample Input:
+2
+4 5
+4 5 3 5
+3 5 2 6 4
+4 5
+4 5 3 5
+3 5 2 6 3
+
+Sample Output:
+1
+1 2 4 5
+1 2 3 4 5
+2 4 5
+1 2 3 4 5
+0

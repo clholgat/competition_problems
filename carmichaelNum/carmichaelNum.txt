@@ -1,0 +1,33 @@
+Certain cryptographic algorithms make use of ig prime numbers. Checking whether a big number is prime is not easy.
+
+Randomized primality tests exist that offer a high degree of confidence of accurate determination at low cost, such as the Fermat test. Let a be a random number between 2 and n-1, where n is the number who's primality we are testing. Then, n is probably prime if a^n mod n = a. If a number passes the Fermat test several times, then it is prime with a high probability.
+
+Certain composite numbers still pass the Fermat test with every number smaller than themselves. These numbers are called Carmichael numbers.
+
+Write a program to test whether a given integer is a Carmichael number.
+
+Input:
+The first line will contain an integer T indicating the number of test cases. Each subsequent test case will contain one positive integer n.
+
+Output:
+For each integer case in the input, print whether it is a Charmichael number or not as shown in the output.
+
+Constraints:
+T <= 20
+2 < n < 65000
+
+Sample Input:
+5
+1729
+17
+561
+1109
+431
+
+Sample Output:
+The number 1729 is a Carmichael number.
+17 is normal.
+The number 561 is a Carmichael number.
+1109 is normal.
+431 is normal.
+

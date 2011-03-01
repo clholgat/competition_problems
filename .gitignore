@@ -1,0 +1,10 @@
+#competition submissions that I don't want included
+*.py
+*.java
+*.out
+alex*
+
+#directories to ignore
+ricket*
+password*
+problem*

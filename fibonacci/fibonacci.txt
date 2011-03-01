@@ -1,0 +1,21 @@
+Recall the definition of the Fibonacci sequence:
+f_1 = 1
+f_2 = 2
+f_n = f_{n-1}+f_{n-1} for n >= 3
+
+Given two numbers a,b, calculate how many Fibonacci numbers are in the range [a, b]
+
+Input:
+The first line of the input will be one integer indicating the number of test cases. Each test case will consist of one line with two integers A and B, A <= B <= 10^100.
+
+Output:
+For each test case output on a single line, the number of Fibonacci numbers f_1 with a <= f_i <= b.
+
+Sample Input:
+2
+10 100
+1234567890 9876543210
+
+Sample Output:
+5
+4
